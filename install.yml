@@ -1,0 +1,12 @@
+---
+- name: Playbook
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: True
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: "Adafruit_DHT"
+        executable: pip3
