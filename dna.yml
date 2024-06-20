@@ -1,10 +1,10 @@
 ---
-  name: "dht_sensor"
+  name: "dht_sensor_server"
   type: "neuron"
-  author: "Kalliope project team"
+  author: "Fay and Kalliope project team"
 
   kalliope_supported_version:
-    - 0.6
+    - 0.7
 
   tags:
     - "GPIO"
